@@ -1,0 +1,99 @@
+@media screen and (max-width: 1400px) {
+     #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+     }
+     .about-contaner{
+        flex-wrap: wrap;
+     }
+}
+
+@media screen and (max-width: 1200px) {
+    #desktop-nav{
+        display: none;
+    }
+    #humburger-nav{
+        display: flex;
+    }  
+    #experince, .experince-details-contaner{
+      margin-top: 2rem;  
+    }  
+    #profile, .section-contaner{
+        display: block;
+    }
+    .arrow{
+        display: none;
+    }
+    section, .section-contaner{
+        height: fit-content;
+    }
+    section{
+        margin: 2rem;
+    }
+    .section_pic-contaner{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .about-contaner{
+        margin-top: 0;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    #contact, .footer{
+        height: 40vh;
+    }
+    #profile{
+        height: 83vh;
+
+       
+    }
+    article{
+        font-size: 1rem;
+    }
+    footer nav {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    
+    .about-contaner, .contact-info-upper-contaner, .btn-contaner{
+        flex-wrap: wrap;
+    }
+    .contact-info-contaner{
+        margin: 0;
+    }
+    .contact-info-contaner p, .nav-links li a{
+        font-size: 0.83rem;
+    }
+    .experience-sub-title{
+        font-size: 1rem;
+    }
+    .logo{
+        font-size: 1.25rem;
+    }
+    .nav-links{
+        flex-direction: column;
+        gap: 0.05rem;
+        text-align: center;
+    }
+    .section_pic-contaner{
+        width: auto;
+        height: 35vh;
+        justify-content: center;
+    }
+    .section_text_p2{
+        font-size: 1.25rem;
+    }
+    .title{
+        font-size: 1.5rem;
+    }
+    .text-contaner{
+        text-align: justify;
+    }
+    .about-contaner{
+        flex-wrap:wrap;
+    }
+}
+
