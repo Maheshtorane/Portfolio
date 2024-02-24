@@ -198,12 +198,51 @@ section{
   }
 }
 
+.loader{
+  position: absolute;
+  top: 55px;
+  left: 5px;
+  height: 80vh;
+  width: 80vh;
+  display: flex;
+  justify-content: center;
+  transition: opacity 0.75, visibility 2s;
+}
+
+.loader-hidden{
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader::after{
+  content: "";
+  width: 450px;
+  height: 450px;
+  border: 15px solid #dddddd;
+  border-top-color:aqua;
+  border-left-color: rgb(242, 0, 255);
+  border-right-color: black;
+  border-bottom-color: yellow;
+  border-radius: 50%;
+  animation: loading 0.50s ease infinite;
+}
+
+@keyframes loading {
+  from{
+    transform: rotate(0turn);
+  }
+  to{
+    transform: rotate(1turn);
+  }
+}
+
 #profile{
   display: flex;
   justify-content: center;
   gap: 5rem;
   height: 80vh;
   position: relative;
+  
 }
 
 .section_pic-contaner{
